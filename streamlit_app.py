@@ -4,7 +4,7 @@ import streamlit as st
 from scripts.inference import model_predict
 
 PROCESSED_DIR = "streamlit_data"
-PATH_TO_MODEL = 'models\\KeysClassifier.pth'
+PATH_TO_MODEL = 'models/KeysClassifier.pth'
 def upload_data(out_dir: Path, text_on_button:str) -> None:
     """Upload multiple files.
 
